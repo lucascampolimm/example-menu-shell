@@ -35,7 +35,7 @@ do
 			echo "Deseja executar o nano? (s/n)"
 			echo ""
 			read resposta1
-			[ "$resposta1" = "s" ] || [ "$resposta1" = "S" ] && nano || { echo ""; echo "Ok, o vim não será executado!"; }
+			[ "$resposta1" = "s" ] || [ "$resposta1" = "S" ] && nano || { echo ""; echo "Ok, o nano não será executado!"; }
 			;;
 		3)
 			echo ""
