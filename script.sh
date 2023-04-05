@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Exemplo de menu em Shell Script.
+
 clear
 
 option=0
