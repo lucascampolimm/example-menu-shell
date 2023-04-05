@@ -42,7 +42,6 @@ do
 			echo "Você saiu do programa!"
 			exit
 			;;
-
 		*)	
 			echo ""
 			echo "Opção inválida!"
