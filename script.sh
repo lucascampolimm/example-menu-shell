@@ -24,12 +24,7 @@ do
 			echo "Deseja executar o vim? (s/n)"
 			echo ""
 			read resposta0
-			if [ "$resposta0" = "s" ] || [ "$resposta" = "S" ]; then
-				vim
-			else
-				echo ""
-				echo "Ok, o vim não será executado!"
-			fi
+			[ "$resposta0" = "s" ] || [ "$resposta0" = "S" ] && vim || { echo ""; echo "Ok, o vim não será executado!"; }
 			;;
 		2)
 			echo ""
@@ -38,12 +33,7 @@ do
 			echo "Deseja executar o nano? (s/n)"
 			echo ""
 			read resposta1
-			if [ "$resposta1" = "s" ] || [ "$resposta" = "S" ]; then
-				nano
-			else	
-				echo ""
-				echo "Ok, o nano não será executado!"
-			fi
+			[ "$resposta1" = "s" ] || [ "$resposta1" = "S" ] && nano || { echo ""; echo "Ok, o vim não será executado!"; }
 			;;
 		3)
 			echo ""
